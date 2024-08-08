@@ -1,0 +1,34 @@
+.services .service-item .icon {
+    background-color: #08321ecf;
+}
+
+.background-header{
+    background-color: #08321E !important;
+}
+
+.main-banner .item span.category {
+    background-color: #08321E;
+}
+
+.header-area .main-nav #search input{
+    width: 350px;
+}
+
+#iconesite {
+    width: 200px;
+    margin-left: -20px;
+    margin-top: -7.5px;
+    margin-right: 10px;
+}
+
+.main-banner .item .buttons .main-button a {
+    color: #08321ecf;
+}
+
+.main-banner .item .buttons .icon-button i{
+    color: #08321ecf;
+}
+
+.main-button a{
+    color: #08321E;
+}
