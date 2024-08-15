@@ -42,7 +42,7 @@
 }
 
 .event_filter li a.is_active,
-.event_filter li a:hover {
+.event_filter li a:hover , .events_item:hover .down-content h4{
     color: #0f5734;
 }
 
@@ -50,6 +50,11 @@
     background-color: #08321E;
 }
 
-#contact-form button {
+.events_item .thumb span.price {
+    background-color: #0f5734;
+}
+
+
+#contact-form button , .events_item .down-content span.author, .events_item .thumb span.category{
     color: #08321E;
 }
