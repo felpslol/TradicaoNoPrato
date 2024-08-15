@@ -32,3 +32,24 @@
 .main-button a{
     color: #08321E;
 }
+
+.section-heading h6 {
+    color: #08321ecf;
+}
+
+.section-heading p {
+    font-size: 20px;
+}
+
+.event_filter li a.is_active,
+.event_filter li a:hover {
+    color: #0f5734;
+}
+
+.contact-us .contact-us-content, footer {
+    background-color: #08321E;
+}
+
+#contact-form button {
+    color: #08321E;
+}
