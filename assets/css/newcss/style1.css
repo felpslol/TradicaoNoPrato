@@ -58,3 +58,19 @@
 #contact-form button , .events_item .down-content span.author, .events_item .thumb span.category{
     color: #08321E;
 }
+
+.events_item .thumb span.price {
+    width: 200px;
+    height: 100px;
+    border-radius: 25%;
+}
+
+.events_item .thumb span.price h6{
+    margin-top: 58px;
+    margin-left: 10%;
+    font-size: 25px;
+}
+
+.spanh6xd{
+    color: white;
+}

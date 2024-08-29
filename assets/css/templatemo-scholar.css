@@ -120,7 +120,7 @@ body {
 }
 
 ::selection {
-  background: #08321E;
+  background: #7a6ad8;
   color: #fff;
 }
 
@@ -606,7 +606,7 @@ Header Style
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #08321E!important;
+    color: #7a6ad8!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
