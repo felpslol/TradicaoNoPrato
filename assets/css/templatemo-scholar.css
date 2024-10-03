@@ -120,12 +120,12 @@ body {
 }
 
 ::selection {
-  background: #7a6ad8;
+  background: #0f5734;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #7a6ad8;
+  background: #0f5734;
   color: #fff;
 }
 
@@ -147,12 +147,12 @@ body {
 }
 
 .section-heading h2 em {
-  color: #7a6ad8;
+  color: #0f5734;
   font-style: normal;
 }
 
 .section-heading h6 {
-  color: #7a6ad8;
+  color: #0f5734;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 600;
@@ -161,7 +161,7 @@ body {
 .main-button a {
   display: inline-block;
   background-color: #fff;
-  color: #7a6ad8;
+  color: #0f5734;
   font-size: 14px;
   font-weight: 500;
   height: 40px;
@@ -172,7 +172,7 @@ body {
 }
 
 .main-button a:hover {
-  background-color: #7a6ad8;
+  background-color: #0f5734;
   color: #fff;
 }
 
@@ -1014,19 +1014,16 @@ Courses Style
 
 .events_item .thumb span.price {
   position: absolute;
-  right: -30px;
   top: -50px;
   background-color: rgba(122, 106, 216, 0.95);
-  width: 130px;
   height: 130px;
-  border-radius: 50%;
   display: inline-block;
   transition: all .3s;
 }
 
 .events_item .thumb span.price h6 {
   margin-top: 72px;
-  margin-left: 22px;
+  margin-left: 15px;
   font-size: 28px;
   text-transform: uppercase;
   color: #fff;

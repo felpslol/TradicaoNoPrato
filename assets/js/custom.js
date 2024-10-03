@@ -151,12 +151,13 @@
 			var href = currLink.attr("href");
 			if (href !== "#" && href !== "") {
 				var refElement = $(href);
-				if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-					$('.nav ul li a').removeClass("active");
-					currLink.addClass("active");
-				}
-				else{
-					currLink.removeClass("active");
+				if (refElement.length > 0) { // Check if the element exists
+					if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+						$('.nav ul li a').removeClass("active");
+						currLink.addClass("active");
+					} else {
+						currLink.removeClass("active");
+					}
 				}
 			}
 		});
