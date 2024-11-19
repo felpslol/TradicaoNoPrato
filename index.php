@@ -59,7 +59,7 @@ https://templatemo.com/tm-586-scholar
                     <!-- ***** Serach Start ***** -->
                     <div class="search-input">
                       <form id="search" action="#">
-                        <input type="text" placeholder="Search for restaurants and dishes" id='searchText' name="searchKeyword" onkeypress="handle" />
+                        <input type="text" placeholder="Pesquise por restaurantes" id='searchText' name="searchKeyword" onkeypress="handle" />
                         <i class="fa fa-search"></i>
                       </form>
                     </div>
@@ -89,7 +89,7 @@ https://templatemo.com/tm-586-scholar
             <div class="item item-1">
               <div class="header-text">
                 <span class="category"><h6 class = "spanh6xd">Parobé</h6></span>
-                <h2>Best Offer 1</h2>
+                <h2>Promoção de natal</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac ornare elit. Aenean molestie diam.</p>
                 <div class="buttons">
                   <div class="main-button">
