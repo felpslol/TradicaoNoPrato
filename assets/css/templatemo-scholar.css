@@ -1637,13 +1637,12 @@ footer {
   position: relative;
   background-color: #7a6ad8;
   vertical-align: middle;
-  min-height: 150px;
-  border-radius: 150px 150px 0px 0px;
+  min-height: 50px;
 }
 
 footer p {
   text-align: center;
-  line-height: 150px;
+  line-height: 50px;
   color: #fff;
   font-weight: 400;
 }
@@ -1660,7 +1659,6 @@ footer p a:hover {
 }
 
 footer::before {
-  background: url(../images/contact-dec-01.png);
   position: absolute;
   left: 30px;
   transform: rotate(180deg);

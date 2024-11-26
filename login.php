@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="assets/css/newcss/style2.css">
+    <link rel="stylesheet" href="assets/css/newcss/login.css">
 <!--
 
 TemplateMo 586 Scholar
@@ -65,7 +66,7 @@ https://templatemo.com/tm-586-scholar
                     <!-- ***** Serach Start ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                      <li class="scroll-to-section"><a href="#contact" class="active" >Business</a></li>
+                      <li class="scroll-to-section"><a href="#contact" class="active" >Login</a></li>
                   </ul>   
                     <a class='menu-trigger'>
                         <span>Menu</span>
@@ -83,45 +84,25 @@ https://templatemo.com/tm-586-scholar
   </div>
 
   <div class="contact-us section" id="contact">
-    <div class="container">
+    <div class="container" id="contlogin">
       <div class="row">
-        <div class="col-lg-6  align-self-center">
-          <div class="section-heading">
-            <h6>Contact Us</h6>
-            <h2>Feel free to contact us for business.</h2>
-            <p>Thank you for choosing our site. In case you want your restaurant or service here, feel free to send us an email using this form. If we're interested, we'll message you back ASAP.</p>
-          </div>
-        </div>
         <div class="col-lg-6">
           <div class="contact-us-content">
             <form id="contact-form" action="" method="post">
               <div class="row">
                 <div class="col-lg-12">
                   <fieldset>
-                    <input type="name" name="name" id="name" placeholder="Your Name (Not Business name)" autocomplete="on" required>
+                    <input type="name" name="name" id="name" placeholder="Email/Usuário" autocomplete="on" required>
                   </fieldset>
                 </div>
                 <div class="col-lg-12">
                   <fieldset>
-                    <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your E-mail" required="">
+                    <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Senha" required="">
                   </fieldset>
                 </div>
                 <div class="col-lg-12">
                   <fieldset>
-                    <textarea name="message" id="message" placeholder="A Brief description of the service you offer, including name, location, type of service and things you find important."></textarea>
-                  </fieldset>
-                </div>
-                <label>Categoria restaurante:</label>
-                <select name="Categoria">
-                  <optgroup>
-                    <option>Restaurante</option>
-                    <option>Pizzaria</option>
-                    <option>Hamburgueria</option>
-                  </optgroup>
-                </select>
-                <div class="col-lg-12">
-                  <fieldset>
-                    <button type="submit" id="form-submit" class="orange-button">Send Message Now</button>
+                    <button type="submit" id="form-submit" class="orange-button">Logar</button>
                   </fieldset>
                 </div>
               </div>

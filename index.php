@@ -66,9 +66,9 @@ https://templatemo.com/tm-586-scholar
                     <!-- ***** Serach Start ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                      <li class="scroll-to-section"><a href="#top" class="active">Offers</a></li>
-                      <li class="scroll-to-section"><a href="#courses">Services</a></li>
-                      <li class="scroll-to-section"><a href="business.html" id = "businessbut">Business</a></li>
+                      <li class="scroll-to-section"><a href="#top" class="active">Ofertas</a></li>
+                      <li class="scroll-to-section"><a href="#courses">Serviços</a></li>
+                      <li class="scroll-to-section"><a href="login.php" id = "businessbut">Login</a></li>
                   </ul>   
                     <a class='menu-trigger'>
                         <span>Menu</span>
@@ -133,23 +133,23 @@ https://templatemo.com/tm-586-scholar
       <div class="row">
         <div class="col-lg-12 text-center">
           <div class="section-heading">
-            <h6>Services</h6>
-            <h2>Our best Services</h2>
+            <h6>Serviços</h6>
+            <h2>Nossos serviços ofertados</h2>
           </div>
         </div>
       </div>
       <ul class="event_filter">
         <li>
-          <a class="is_active" href="#!" data-filter="*">Show All</a>
+          <a class="is_active" href="#!" data-filter="*">Todos</a>
         </li>
         <li>
-          <a href="#!" data-filter=".categoria-pizzeria">Pizzerias</a>
+          <a href="#!" data-filter=".categoria-pizzeria">Pizzarias</a>
         </li>
         <li>
-          <a href="#!" data-filter=".categoria-restaurant">Restaurants</a>
+          <a href="#!" data-filter=".categoria-restaurant">Restaurantes</a>
         </li>
         <li>
-          <a href="#!" data-filter=".categoria-burguerplace">Burguer Places</a>
+          <a href="#!" data-filter=".categoria-burguerplace">Hamburgueria</a>
         </li>
       </ul>
       <div class="row event_box">
