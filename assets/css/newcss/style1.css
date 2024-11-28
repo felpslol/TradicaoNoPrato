@@ -106,3 +106,9 @@ footer {
     padding-right: 10px;
 }
 
+.user-info {
+    font-family: 'Poppins', sans-serif;
+    color: #fff; /* Cor do texto */
+    float: right;
+}
+

@@ -95,12 +95,17 @@ https://templatemo.com/tm-586-scholar
                             </div>
                         <?php endif; ?>
 
-                        <form id="contact-form" action="contlogin.php" method="post">
-                          <p id = "titlogin"> Realizar Login </p>
+                        <form id="contact-form" action="contcadastro.php" method="post">
+                          <p id = "titlogin"> Realizar Cadastro </p>
                             <div class="row">
                             <div class="col-lg-12">
                                     <fieldset>
-                                        <input type="text" name="emaileuser" id="emaileuser" placeholder="Email ou Usuário" required="">
+                                    <input type="email" id="email" name="email" required pattern=".+@.+\..+" placeholder="Email">
+                                    </fieldset>
+                                </div>
+                                <div class="col-lg-12">
+                                    <fieldset>
+                                        <input type="text" name="nome" id="nome" placeholder="Username"required>
                                     </fieldset>
                                 </div>
                                 <div class="col-lg-12">
@@ -110,8 +115,13 @@ https://templatemo.com/tm-586-scholar
                                 </div>
                                 <div class="col-lg-12">
                                     <fieldset>
-                                        <button type="submit" id="form-submit" class="orange-button">Logar</button>
-                                        <a href="cadastro.php" class = "aquelesquesabem">Não tem conta? Cadastrar</a>
+                                        <input type="password" name="csenha" id="csenha" placeholder="Confirmar senha"required>
+                                    </fieldset>
+                                </div>
+                                <div class="col-lg-12">
+                                    <fieldset>
+                                        <button type="submit" id="form-submit" class="orange-button">Cadastrar</button>
+                                        <a href="login.php" class = "aquelesquesabem">Já tem conta? Logar</a>
                                     </fieldset>
                                 </div>
                             </div>

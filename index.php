@@ -1,3 +1,7 @@
+<?php
+session_start(); // Inicie a sessão
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -53,32 +57,42 @@ https://templatemo.com/tm-586-scholar
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
                     <a href="index.php" class="logo">
-                        <img id = "iconesite" src = "assets/images/iconesite.jpg">
+                        <img id="iconesite" src="assets/images/iconesite.jpg">
                     </a>
                     <!-- ***** Logo End ***** -->
-                    <!-- ***** Serach Start ***** -->
+                    <!-- ***** Search Start ***** -->
                     <div class="search-input">
                       <form id="search" action="#">
-                        <input type="text" placeholder="Pesquise por restaurantes" id='searchText' name="searchKeyword" onkeypress="handle" />
-                        <i class="fa fa-search"></i>
+                        <!-- <input type="text" placeholder="Pesquise por restaurantes" id='searchText' name="searchKeyword" onkeypress="handle" />
+                        <i class="fa fa-search"></i> -->
                       </form>
                     </div>
-                    <!-- ***** Serach Start ***** -->
+                    <!-- ***** Search End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
                       <li class="scroll-to-section"><a href="#top" class="active">Ofertas</a></li>
                       <li class="scroll-to-section"><a href="#courses">Serviços</a></li>
-                      <li class="scroll-to-section"><a href="login.php" id = "businessbut">Login</a></li>
-                  </ul>   
+                    </ul>   
                     <a class='menu-trigger'>
                         <span>Menu</span>
                     </a>
+                    <!-- ***** User Info Start ***** -->
+                    <div class="user-info">
+                        <?php
+                        if (isset($_SESSION['nome_usuario'])) {
+                            echo "<span>Bem-vindo, " . htmlspecialchars($_SESSION['nome_usuario']) . "!</span>";
+                        } else {
+                            header("Location: login.php");
+                        }
+                        ?>
+                    </div>
+                    <!-- ***** User Info End ***** -->
                     <!-- ***** Menu End ***** -->
                 </nav>
             </div>
         </div>
     </div>
-  </header>
+</header>
   <!-- ***** Header Area End ***** -->
 
   <div class="main-banner" id="top">

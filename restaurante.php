@@ -5,7 +5,6 @@ $sql = "SELECT * FROM restaurante";
 $result = mysqli_query($conn, $sql);
 
 if ($result->num_rows > 0) {
-    // output data of each row
     while($row = $result->fetch_assoc()) {
         $imagem_data = $row['imagem'];
         $imagem_src = 'data:image/jpeg;base64,' . base64_encode($imagem_data);

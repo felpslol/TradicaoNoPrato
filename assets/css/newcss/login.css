@@ -1,3 +1,22 @@
 .contact-us {
-    margin-top: 10px;
+    margin-top: 50px;
+    margin-left: 32.5%;
+}
+
+.contact-us {
+    background-color:white;
+}
+
+#titlogin {
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    margin-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 110%;
+}
+
+.aquelesquesabem {
+    margin-left: 140px;
+    color: white;
 }
