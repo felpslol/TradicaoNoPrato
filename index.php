@@ -72,20 +72,18 @@ https://templatemo.com/tm-586-scholar
                     <ul class="nav">
                       <li class="scroll-to-section"><a href="#top" class="active">Ofertas</a></li>
                       <li class="scroll-to-section"><a href="#courses">Serviços</a></li>
+                      <?php
+                        if (isset($_SESSION['nome_usuario'])) {
+                          echo "<li class='scroll-to-section'><p class='user-info'>Bem-vindo, " . htmlspecialchars($_SESSION['nome_usuario']) . "!</p></li>";
+                        } else {
+                            header("Location: login.php");
+                        }
+                        ?>
                     </ul>   
                     <a class='menu-trigger'>
                         <span>Menu</span>
                     </a>
                     <!-- ***** User Info Start ***** -->
-                    <div class="user-info">
-                        <?php
-                        if (isset($_SESSION['nome_usuario'])) {
-                            echo "<span>Bem-vindo, " . htmlspecialchars($_SESSION['nome_usuario']) . "!</span>";
-                        } else {
-                            header("Location: login.php");
-                        }
-                        ?>
-                    </div>
                     <!-- ***** User Info End ***** -->
                     <!-- ***** Menu End ***** -->
                 </nav>

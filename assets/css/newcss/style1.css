@@ -110,5 +110,6 @@ footer {
     font-family: 'Poppins', sans-serif;
     color: #fff; /* Cor do texto */
     float: right;
+    margin-top: 5px;
 }
 

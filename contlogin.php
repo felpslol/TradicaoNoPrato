@@ -14,7 +14,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit();
     }
 
-
     $login = mysqli_real_escape_string($conn, $login);
     $senha = mysqli_real_escape_string($conn, $senha);
 
@@ -22,6 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $result = mysqli_query($conn, $query);
 
     if (mysqli_num_rows($result) == 1) {
+        $row = mysqli_fetch_assoc($result); // Adicione isso para buscar os dados do usuário
         $_SESSION['nome_usuario'] = $row['nome'];
         header("Location: index.php");
         exit();
