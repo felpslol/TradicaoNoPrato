@@ -122,15 +122,6 @@ https://templatemo.com/tm-586-scholar
         </div>
     </div>
 
-  <!--<footer>
-    <div class="container">
-      <div class="col-lg-12">
-        <p>Copyright © 2024 Tradição no Prato. All rights reserved.</p>
-      </div>
-    </div>
-  </footer>
--->
-
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>

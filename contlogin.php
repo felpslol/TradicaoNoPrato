@@ -1,13 +1,12 @@
 <?php
-// Incluir o arquivo de conexão
 include 'conectar.php';
-session_start(); // Inicie a sessão
+session_start(); 
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $login = $_POST['emaileuser']; // Campo que pode ser email ou username
-    $senha = $_POST['senha']; // Campo para senha
+    $login = $_POST['emaileuser']; 
+    $senha = $_POST['senha']; 
 
-    // Validação básica
+    // Validar só o basico por enquanto
     if (empty($login) || empty($senha)) {
         $_SESSION['error'] = "Por favor, preencha todos os campos.";
         header("Location: login.php");
@@ -21,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $result = mysqli_query($conn, $query);
 
     if (mysqli_num_rows($result) == 1) {
-        $row = mysqli_fetch_assoc($result); // Adicione isso para buscar os dados do usuário
+        $row = mysqli_fetch_assoc($result);
         $_SESSION['nome_usuario'] = $row['nome'];
         header("Location: index.php");
         exit();
@@ -31,7 +30,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit();
     }
 }
-
-// Fechar conexão
 mysqli_close($conn);
 ?>
