@@ -76,7 +76,7 @@ https://templatemo.com/tm-586-scholar
                         if (isset($_SESSION['nome_usuario'])) {
                           echo "<li class='scroll-to-section'><p class='user-info'>Bem-vindo, " . htmlspecialchars($_SESSION['nome_usuario']) . "!</p></li>";
                         } else {
-                            header("Location: login.php");
+                            echo "<a href = 'login.php' class = 'user-info'>Fazer Login</a>";
                         }
                         ?>
                     </ul>   
